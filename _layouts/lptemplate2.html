@@ -1,8 +1,9 @@
 <!--required resources:
 
-- lander_image.jpg
+- lander.jpg
 - index.html with these inputs:
-    title, headingLine, vendorHopLink, cmcProject, cmcHid, cmcUid, privacyLink, termsLink, content, landerImage
+    headingLine, vendorHopLink, cmcProject, cmcHid, cmcUid, privacyLink, termsLink, content
+    optional: title, landerImage
 
 required remote resources:
 - https://vitalityglow.life/lib/assets/js/app-1.0.js
@@ -218,7 +219,7 @@ required remote resources:
         <!-- todo cmc_vid not replace in edge but works in chrome when running locally why? -->
         <a class="cta" href="{{ page.vendorHopLink }}"
            target="_top">
-            <img class="lander-img" src="{{ page.landerImage | default: 'lander_image.jpg' }}">
+            <img class="lander-img" src="{{ page.landerImage | default: 'lander.jpg' }}">
             {% include play-btn-b.html %}
         </a>
     </div>
