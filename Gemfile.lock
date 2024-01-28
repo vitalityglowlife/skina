@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:vgl-utils/lptemplates.git
-  revision: bad1baedef17edb0ddff94f6d67330227e5290ce
+  remote: https://github.com/vgl-utils/lptemplates.git
+  revision: b2af1bb4f7f92450eedde85b4551f332651bbaf6
   specs:
     lptemplates (0.1.0)
       jekyll (~> 4.3)
