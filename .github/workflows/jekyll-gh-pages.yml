@@ -12,6 +12,7 @@ jobs:
         with:
           ruby-version: '3.2.2'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - run: echo Gemfile.lock
       - run: bundle exec jekyll build
       - uses: actions/upload-pages-artifact@v1
         with:
