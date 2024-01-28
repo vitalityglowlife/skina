@@ -31,7 +31,7 @@ jobs:
           ruby-version: '3.2.2'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - run: bundle exec jekyll build
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: "_site/"
 
